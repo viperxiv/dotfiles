@@ -25,3 +25,5 @@ zstyle ':vcs_info:git*' formats "%{$fg[green]%}%u%b%{$reset_color%} "
 setopt prompt_subst
 PROMPT=$' %{\e[0;30m%}%~ %{\e[0m%}${vcs_info_msg_0_}$ '
 RPROMPT=$'[%{$fg[cyan]%}%*%{$reset_color%}]'
+
+source ~/.gitrepos/xf/xf_zsh_completion
