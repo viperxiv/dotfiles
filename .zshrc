@@ -4,16 +4,14 @@ EDITOR=vi
 export GREP_COLORS=1
 export CLICOLOR=1
 export WORKON_HOME=~/.virtualenvs
-export GIT_PS1_SHOWDIRTYSTATE=yes
-export GIT_PS1_SHOWUNTRACKEDFILES=yes
 
 source /usr/local/bin/virtualenvwrapper.sh
 
 alias ls='ls -la'
-PROMPT=$' \e[0;30m%~ \e[0m$ '
 
 autoload colors
 colors
+
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git svn
 zstyle ':vcs_info:*' check-for-changes true
