@@ -1,8 +1,8 @@
 install:
-	ln -s ~/.gitrepos/dotfiles/.zshrc ~/.zshrc
-	ln -s ~/.gitrepos/dotfiles/.vimrc ~/.vimrc
-	ln -s ~/.gitrepos/dotfiles/.vim ~/.vim
-	ln -s ~/.gitrepos/dotfiles/.tmux.conf ~/.tmux.conf
+	ln -s $(CURDIR)/.zshrc ~/.zshrc
+	ln -s $(CURDIR)/.vimrc ~/.vimrc
+	ln -s $(CURDIR)/.vim ~/.vim
+	ln -s $(CURDIR)/.tmux.conf ~/.tmux.conf
 
 clean:
 	rm -rf ~/.vimrc
