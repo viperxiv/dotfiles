@@ -1,4 +1,4 @@
-PATH=$PATH:/usr/local/share/npm/bin
+PATH=/usr/local/bin:$PATH:/usr/local/share/npm/bin
 
 export EDITOR=vi
 export GREP_COLORS=1
