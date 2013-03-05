@@ -1,6 +1,6 @@
 PATH=$PATH:/usr/local/share/npm/bin
 
-EDITOR=vi
+export EDITOR=vi
 export GREP_COLORS=1
 export CLICOLOR=1
 export WORKON_HOME=~/.virtualenvs
