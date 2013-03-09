@@ -56,3 +56,5 @@ inoremap <s-tab> <c-n>
 imap <C-c> <Esc>
 " In Makefiles, don't expand tabs to spaces, since we need the actual tabs
 autocmd FileType make set noexpandtab
+
+au Bufread,BufNewFile *.as set filetype=actionscript
